@@ -1,0 +1,11 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/Emmaoye/nouloo-post-agent@cimd-v1/docs/oauth-client.json",
+  "client_name": "Nouloo Post Agent",
+  "redirect_uris": [
+    "http://127.0.0.1:8000/oauth/callback",
+    "http://localhost:8000/oauth/callback"
+  ],
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"]
+}
